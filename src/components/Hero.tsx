@@ -65,7 +65,7 @@ const Hero = () => {
             {/* CTA Button */}
             <Button 
               onClick={scrollToOffer}
-              className="bg-terracotta-500 hover:bg-terracotta-600 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 animate-pulse-gentle mb-6"
+              className="bg-terracotta-500 hover:bg-terracotta-600 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 mb-6"
             >
               🔥 Quero Aprender Agora!
             </Button>
