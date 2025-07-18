@@ -2,9 +2,8 @@
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
-  const scrollToOffer = () => {
-    const offerSection = document.getElementById('offer');
-    offerSection?.scrollIntoView({ behavior: 'smooth' });
+  const redirectToOffer = () => {
+    window.open('https://chk.eduzz.com/G961RQQYW1', '_blank');
   };
 
   return (
@@ -64,7 +63,7 @@ const Hero = () => {
 
             {/* CTA Button */}
             <Button 
-              onClick={scrollToOffer}
+              onClick={redirectToOffer}
               className="bg-terracotta-500 hover:bg-terracotta-600 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 mb-6"
             >
               🔥 Quero Aprender Agora!

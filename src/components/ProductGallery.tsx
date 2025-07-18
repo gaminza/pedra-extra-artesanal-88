@@ -1,5 +1,9 @@
 
 const ProductGallery = () => {
+  const redirectToOffer = () => {
+    window.open('https://chk.eduzz.com/G961RQQYW1', '_blank');
+  };
+
   const products = [
     {
       id: 1,
@@ -79,7 +83,7 @@ const ProductGallery = () => {
               <strong>Imagine criando peças como essas e vendendo por R$ 150 a R$ 350 cada uma!</strong>
             </p>
             <button 
-              onClick={() => document.getElementById('offer')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={redirectToOffer}
               className="bg-terracotta-500 hover:bg-terracotta-600 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
             >
               Quero Aprender a Fazer Japamalas!

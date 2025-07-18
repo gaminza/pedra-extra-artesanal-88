@@ -1,5 +1,9 @@
 
 const Instructor = () => {
+  const redirectToOffer = () => {
+    window.open('https://chk.eduzz.com/G961RQQYW1', '_blank');
+  };
+
   return <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
@@ -73,9 +77,7 @@ const Instructor = () => {
 
               {/* CTA */}
               <div className="text-center">
-                <button onClick={() => document.getElementById('offer')?.scrollIntoView({
-                behavior: 'smooth'
-              })} className="bg-gold-500 hover:bg-gold-600 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 w-full md:w-auto">
+                <button onClick={redirectToOffer} className="bg-gold-500 hover:bg-gold-600 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 w-full md:w-auto">
                   Quero Aprender Com Você!
                 </button>
               </div>

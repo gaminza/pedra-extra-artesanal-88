@@ -1,5 +1,9 @@
 
 const AboutJapamala = () => {
+  const redirectToOffer = () => {
+    window.open('https://chk.eduzz.com/G961RQQYW1', '_blank');
+  };
+
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
@@ -71,7 +75,7 @@ const AboutJapamala = () => {
           {/* CTA */}
           <div className="text-center">
             <button 
-              onClick={() => document.getElementById('offer')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={redirectToOffer}
               className="bg-gold-500 hover:bg-gold-600 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
             >
               Comece Agora!

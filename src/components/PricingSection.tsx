@@ -1,5 +1,9 @@
 
 const PricingSection = () => {
+  const redirectToOffer = () => {
+    window.open('https://chk.eduzz.com/G961RQQYW1', '_blank');
+  };
+
   return (
     <section id="offer" className="py-16 bg-gradient-to-br from-terracotta-50 to-gold-50">
       <div className="container mx-auto px-4">
@@ -70,7 +74,10 @@ const PricingSection = () => {
               </div>
             </div>
 
-            <button className="bg-gradient-to-r from-terracotta-500 to-terracotta-600 hover:from-terracotta-600 hover:to-terracotta-700 text-white px-12 py-6 text-xl font-bold rounded-full shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300">
+            <button 
+              onClick={redirectToOffer}
+              className="bg-gradient-to-r from-terracotta-500 to-terracotta-600 hover:from-terracotta-600 hover:to-terracotta-700 text-white px-12 py-6 text-xl font-bold rounded-full shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300"
+            >
               🔥 QUERO APRENDER A FAZER JAPAMALAS AGORA!
             </button>
             
