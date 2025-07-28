@@ -22,7 +22,7 @@ const Instructor = () => {
             {/* Images Column */}
             <div className="space-y-6">
               <div className="relative">
-                <img src="/lovable-uploads/587d0d19-022e-4500-96ba-55d84c5207df.png" alt="Instrutora segurando japamala" className="w-full rounded-2xl shadow-xl" />
+                <img src="/uploads/587d0d19-022e-4500-96ba-55d84c5207df.png" alt="Instrutora segurando japamala" className="w-full rounded-2xl shadow-xl" />
               </div>
               
             </div>

@@ -7,37 +7,37 @@ const ProductGallery = () => {
   const products = [
     {
       id: 1,
-      image: "/lovable-uploads/a3f671a9-842a-417b-a2f2-a1f9e7be291d.png",
+      image: "/uploads/a3f671a9-842a-417b-a2f2-a1f9e7be291d.png",
       title: "Japamala Vermelho",
       description: "Cornalina com coração de olho de tigre - para atrair prosperidade e abundância."
     },
     {
       id: 2,
-      image: "/lovable-uploads/3735127d-bcbf-4f37-94a2-14b08e018b0c.png",
+      image: "/uploads/3735127d-bcbf-4f37-94a2-14b08e018b0c.png",
       title: "Japamala Olho de Tigre e Jaspe Madeira",
       description: "Para trazer proteção."
     },
     {
       id: 3,
-      image: "/lovable-uploads/bdc5e157-526e-49a5-b399-31257ae23120.png",
+      image: "/uploads/bdc5e157-526e-49a5-b399-31257ae23120.png",
       title: "Japamala Ágata Azul",
       description: "Para te conectar com a espiritualidade."
     },
     {
       id: 4,
-      image: "/lovable-uploads/631b1b6d-3c8e-4b3c-b0ee-5d1067aca6b1.png",
+      image: "/uploads/631b1b6d-3c8e-4b3c-b0ee-5d1067aca6b1.png",
       title: "Japamala Ágata Azul e Água Marinha",
       description: "Para expansão da consciência e conexão com o Criador."
     },
     {
       id: 5,
-      image: "/lovable-uploads/7ace990f-b10f-440d-9743-1f19b2d9a90c.png",
+      image: "/uploads/7ace990f-b10f-440d-9743-1f19b2d9a90c.png",
       title: "Japamala Ametista com Morganita e Olho de Tigre",
       description: "Para trazer paz, harmonia e trabalhar profundamente amor próprio."
     },
     {
       id: 6,
-      image: "/lovable-uploads/44fe090a-bc46-4cc3-b086-32b3b7fe3080.png",
+      image: "/uploads/44fe090a-bc46-4cc3-b086-32b3b7fe3080.png",
       title: "Japamala Hematita",
       description: "Para dar coragem para agir dentro do propósito de vida."
     }

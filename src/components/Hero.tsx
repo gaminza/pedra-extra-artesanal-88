@@ -91,7 +91,7 @@ const Hero = () => {
             <div className="relative">
               {/* Main japamala image */}
               <img 
-                src="/lovable-uploads/036d28c8-97ff-46d9-8786-f3e9f17495ed.png" 
+                src="/uploads/036d28c8-97ff-46d9-8786-f3e9f17495ed.png" 
                 alt="Japamala artesanal com pedras naturais e tassel em ambiente natural"
                 className="w-full max-w-lg mx-auto rounded-2xl shadow-2xl transform hover:scale-105 transition-all duration-500"
               />
