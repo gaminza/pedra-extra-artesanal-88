@@ -8,6 +8,7 @@ import Instructor from "@/components/Instructor";
 import CourseContent from "@/components/CourseContent";
 import PricingSection from "@/components/PricingSection";
 import Contact from "@/components/Contact";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 const Index = () => {
   return (
@@ -31,6 +32,7 @@ const Index = () => {
         <Contact />
       </div>
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 };
