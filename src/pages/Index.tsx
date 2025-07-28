@@ -7,6 +7,7 @@ import ProductGallery from "@/components/ProductGallery";
 import Instructor from "@/components/Instructor";
 import CourseContent from "@/components/CourseContent";
 import PricingSection from "@/components/PricingSection";
+import Contact from "@/components/Contact";
 
 const Index = () => {
   return (
@@ -26,6 +27,9 @@ const Index = () => {
         <CourseContent />
       </div>
       <PricingSection />
+      <div id="contato">
+        <Contact />
+      </div>
       <Footer />
     </div>
   );
