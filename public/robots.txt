@@ -12,3 +12,14 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+# Sitemap
+Sitemap: https://essenciadaspedras.com/sitemap.xml
+
+# Allow all important directories
+Allow: /uploads/
+Allow: /assets/
+
+# Block any admin areas (if added in future)
+Disallow: /admin/
+Disallow: /private/
